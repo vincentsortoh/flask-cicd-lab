@@ -7,7 +7,7 @@ app = Flask(__name__)
 def home():
     return jsonify({
         'message': 'Hello from Flask CI/CD Pipeline!',
-        'version': '1.0.0',
+        'version': '1.2.3',
         'environment': os.getenv('ENVIRONMENT', 'development')
     })
 
